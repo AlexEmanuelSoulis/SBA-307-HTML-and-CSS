@@ -1,0 +1,21 @@
+html {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+nav {
+   position: sticky;
+   top: 0;}
+#bg-card {
+    background-color: #FFC106;
+
+}
+.card-body{
+    background-color: #ffc10672;
+    border: 3px solid gray;
+}
+.card-body:hover{
+    background-color: rgba(255, 192, 203, 0.513);
+    transform: scale(1.05) rotateX(10deg) rotateY(20deg);
+    box-shadow: 0 40px 60px rgba(185, 63, 63, 0.938);
+}
