@@ -1,0 +1,68 @@
+@import url('https://fonts.cdnfonts.com/css/anime-ace');
+
+html, body {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+}
+body {
+    background-image: url('../assets/anime-cityscape-sunset.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+  }
+  
+
+h1 {
+    font-family: 'Anime Ace', sans-serif;
+    text-align: center;
+    color:coral;
+    margin-top: 2rem;
+}
+
+#whiteBg{
+display: flex;
+justify-content: center;
+width: 40%;
+height: 30%;
+margin: auto;
+
+}
+
+#whiteBg > a {
+    text-decoration: none;
+    color:white;
+    padding: 1em;
+    border: 1px solid rgb(242, 165, 178);
+    margin: 1.75em;
+    width: 300px;
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0.461);
+}
+
+.btn-red{
+    background-color: rgba(255, 0, 0, 0.486);
+    color: white;
+}
+
+
+footer {
+    bottom: 0;
+    position: fixed;
+}
+
+@media (max-width: 600px) {
+    #whiteBg {
+      flex-direction: column;
+      padding: 0;
+      margin-left: 0;
+      width: 90%;
+    }
+    footer {
+        display: none;
+    }
+}
