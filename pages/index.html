@@ -1,207 +1,153 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../styles/styles_index.css">
-    <title>The Best Cartoon & Anime</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  </head>
-<body>
-    <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg bg-danger fixed-top">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/pages/index.html">Home Page</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/pages/surprise.html">Surprise</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Top 10
-                </a>
-                <ul class="dropdown-menu bg-danger">
-                  <li><a class="dropdown-item" href="./cartoon.html">Cartoon</a></li>
-                  <li><a class="dropdown-item" href="./anime.html">Anime</a></li>
-                </ul>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DrawMag LLC</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">DrawMag LLC</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav m-5" style="margin: auto;">
+          <a class="nav-link" href="./featuringJournal.html" target="_blank">The Featuring journal</a>
+          <a class="nav-link" href="./dalycomicjournal.html" target="_blank">The daly commic Journal</a>
+          <a class="nav-link" href="#" target="_blank">Anime News</a>
+          <a class="nav-link" href="#" target="_blank">Cartoon Mag</a>
+          
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" 
+              id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <li><a class="dropdown-item" href="./careers.html" style="color: #595959; text-decoration: none;">Careers</a></li>
+              <li><a href="./team.html" style="color: #595959;text-decoration: none;"><button class="dropdown-item" type="button"></button>Learn from our team </a></button>
               </li>
             </ul>
           </div>
+          
         </div>
-      </nav>
-
-      <!-- Carousell -->
-      <section id="carousell">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../assets/foot.jpeg" class="d-block w-100 img-fluid" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/hxh.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/ninja.jpeg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-       
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-      </section>
-
-      <div class="row" id="bg-card">
-        <div class=" col-4">
-          <div class="card p-4 m-5">
-            <div class="card-body">
-              <h5 class="card-title">Hunter X Hunter</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, rerum! Vel libero officiis placeat illo quae, porro dolor voluptas expedita. Blanditiis beatae quibusdam illo expedita perferendis fugit, minus soluta reprehenderit.</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-4">
-            <div class="card p-4 m-5">
-              <div class="card-body">
-                <h5 class="card-title para_center">Naruto</h5>
-                <p class="card-text para_center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, rerum! Vel libero officiis placeat illo quae, porro dolor voluptas expedita. Blanditiis beatae quibusdam illo expedita perferendis fugit, minus soluta reprehenderit.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-4">
-            <div class="card p-4 m-5">
-              <div class="card-body">
-                <h5 class="card-title">Deah Note</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, rerum! Vel libero officiis placeat illo quae, porro dolor voluptas expedita. Blanditiis beatae quibusdam illo expedita perferendis fugit, minus soluta reprehenderit.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-4">
-            <div class="card p-4 m-5">
-              <div class="card-body">
-                <h5 class="card-title">SpongeBob</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, rerum! Vel libero officiis placeat illo quae, porro dolor voluptas expedita. Blanditiis beatae quibusdam illo expedita perferendis fugit, minus soluta reprehenderit.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-4">
-            <div class="card p-4 m-5">
-              <div class="card-body">
-                <h5 class="card-title">Rick and Morty</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, rerum! Vel libero officiis placeat illo quae, porro dolor voluptas expedita. Blanditiis beatae quibusdam illo expedita perferendis fugit, minus soluta reprehenderit.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card p-4 m-5">
-              <div class="card-body">
-                <h5 class="card-title">Bob's Burgers</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, rerum! Vel libero officiis placeat illo quae, porro dolor voluptas expedita. Blanditiis beatae quibusdam illo expedita perferendis fugit, minus soluta reprehenderit.</p>
-              </div>
-            </div>
-          </div>
-
       </div>
+    </div>
+  </nav>
 
-     
-      <div class="container-fluid d-flex justify-content-center align-items-center">
-        <form class="row bg-white p-4 rounded shadow w-100" style="max-width: 100%">
-            <div class="col-md-6 bg-warning">
-                <h4 class="mb-3 text-center">Select Top 10 Cartoons</h4>
-                <div class="form-group">
-                  <select multiple class="form-select" size="15" name="top_cartoons[]">
-                    <option>SpongeBob SquarePants</option>
-                    <option>Avatar: The Last Airbender</option>
-                    <option>Rick and Morty</option>
-                    <option>Adventure Time</option>
-                    <option>Teen Titans</option>
-                    <option>Ben 10</option>
-                    <option>Tom and Jerry</option>
-                    <option>The Simpsons</option>
-                    <option>Family Guy</option>
-                    <option>South Park</option>
-                    <option>Gravity Falls</option>
-                    <option>Regular Show</option>
-                    <option>The Amazing World of Gumball</option>
-                    <option>Phineas and Ferb</option>
-                    <option>Futurama</option>
-                    <option>Steven Universe</option>
-                    <option>Batman: The Animated Series</option>
-                    <option>Dexter’s Laboratory</option>
-                    <option>Johnny Bravo</option>
-                    <option>Powerpuff Girls</option>
-                  </select>
-                  <small class="form-text text-muted">Hold Ctrl (or Cmd) to select multiple</small>
-                </div>
-              </div>
+<section class="container text-center py-5">
+<h3 class="mb-4">
+Our Purpose
+</h3>
+<p>
+Our purpose is to ignite imagination and bring people together by celebrating the art of comics, anime, and cartoons through engaging, inclusive storytelling.
+</p>
+</section>
 
-          <div class="col-md-6 bg-warning">
-            <h4 class="mb-3 text-center">Select Top 10 Anime</h4>
-            <div class="form-group">
-              <select multiple class="form-select" size="15" name="top_anime[]">
-                <option>Naruto</option>
-                <option>One Piece</option>
-                <option>Attack on Titan</option>
-                <option>Death Note</option>
-                <option>My Hero Academia</option>
-                <option>Demon Slayer</option>
-                <option>Jujutsu Kaisen</option>
-                <option>Dragon Ball Z</option>
-                <option>Bleach</option>
-                <option>Chainsaw Man</option>
-                <option>Hunter x Hunter</option>
-                <option>Fullmetal Alchemist</option>
-                <option>Sword Art Online</option>
-                <option>Tokyo Revengers</option>
-                <option>Black Clover</option>
-                <option>Mob Psycho 100</option>
-                <option>Vinland Saga</option>
-                <option>Re:Zero</option>
-                <option>Fairy Tail</option>
-                <option>One Punch Man</option>
-              </select>
-              <small class="form-text text-muted">Hold Ctrl (or Cmd) to select multiple</small>
-            </div>
-          </div>
-    
-         
-    
-          <div class="col-12 text-center mt-4">
-            <button type="submit" class="btn btn-primary px-5">Submit</button>
-          </div>
-        </form>
-      </div>
-    
-      <form action="" class="mt-5 w-50 pb-5" style="margin: auto;">
-        <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-            </div>
-          </div>
-      </form>
+<section class="container border border-secondary p-5 my-5">
+<p class="mb-4">
+Welcome to our dynamic publishing house, home to four unique publications that cater to diverse audiences.
+</p>
+<p>
+Featuring Journal offers in-depth stories, interviews, and features on global trends and inspiring individuals, perfect for readers seeking rich, thought-provoking content.
+</p>
+<p>
+The Daily Comic Journal delivers a daily dose of humor, satire, and serialized comic strips, bringing smiles and light‑hearted commentary to everyday life.
+</p>
+<p>
+Anime News is your go-to source for the latest updates, reviews, and behind-the-scenes insights from the world of anime, making it a must-read for otaku and newcomers alike.
+</p>
+<p>
+Finally, Cartoon Mag celebrates animation in all its forms, from classic Saturday morning cartoons to modern streaming hits, with colorful articles, artist spotlights, and fan-favorite lists.
+</p>
+<p>
+Together, these journals form a vibrant media family that informs, entertains, and inspires.
+</p>
+</section>
 
+<section class="container py-5">
+<div class="row gy-5">
+<div class="col-12 col-md-6">
+<h2 class="text-center mb-3">
+Our Values
+</h2>
+<p class="text-center">
+At The Featuring Group, our values guide everything we publish.
+</p>
+<p class="text-center">
+We believe in the power of creativity, celebrating bold ideas and diverse voices across all our journals—from serious reporting to vibrant illustrations.
+</p>
+<p class="text-center">
+Integrity is at the heart of our work; we are committed to honesty, respect, and high ethical standards.
+</p>
+<p class="text-center">
+We nurture a strong community of readers, artists, and fans who inspire us every day.
+</p>
+<p class="text-center">
+And with a spirit of innovation, we blend tradition with technology to create engaging, accessible content for every generation.
+</p>
+</div>
+<div class="col-12 col-md-6">
+<h2 class="text-center mb-3">
+Our Mission
+</h2>
+<p class="text-center">
+At MagNews, our mission is to inform, inspire, and entertain a global community of readers by delivering high-quality journalism and creative storytelling across a wide spectrum of interests — from anime and comics to pop culture, technology, and global trends.
+</p>
+<p class="text-center">
+We believe in the power of stories to shape minds, spark curiosity, and bring people together.
+</p>
+<p class="text-center">
+MagNews is more than just a publication — it’s a platform for passionate voices, fan communities, and curious thinkers.
+</p>
+<p class="text-center">
+We are committed to highlighting diverse perspectives, amplifying underrepresented creators, and fostering a culture of inclusivity and respect.
+</p>
+<p class="text-center">
+Whether you're here for breaking news, in-depth features, or the latest buzz in entertainment, our goal is to keep you engaged, informed, and connected.
+</p>
+</div>
+</div>
+</section>
 
+<section class="container text-center py-5">
+<h3 class="mb-4">
+Our News Papper
+</h3>
+<div class="row row-cols-lg-4 gy-5">
+<div class="col-12">
+<img src="../assets/featurring journal.png" alt="Featuring Journal logo" class="logo-img">
+</div>
+<div class="col-12">
+<img src="../assets/daily comic.png" alt="Daily Comic Journal logo" class="logo-img">
+</div>
+<div class="col-12">
+<img src="../assets/Capture d’écran 2025-07-29 à 13.14.28.png" alt="Anime News logo" class="logo-img">
+</div>
+<div class="col-12">
+<img src="../assets/cartoon mag.png" alt="Cartoon Mag logo" class="logo-img">
+</div>
+</div>
+</section>
 
-<style>
-   .card-title {
-    text-align: center;
-   }
-</style>
+<footer class="bg-black text-white text-center p-3 mt-5" style="bottom: 0px;">
+  <p>DrawMag LLC All rights reserved. 2025</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
+</script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<style>
+  .logo-img {
+  max-width: 100%;
+  height: auto;
+  }
+  </style>
 </html>
